@@ -2,21 +2,21 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
 /*
-  Generated class for the Home page.
+  Generated class for the AddPlace page.
 
   See http://ionicframework.com/docs/v2/components/#navigation for more info on
   Ionic pages and navigation.
 */
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html'
+  selector: 'page-add-place',
+  templateUrl: 'add-place.html'
 })
-export class HomePage {
+export class AddPlacePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad HomePage');
+    console.log('ionViewDidLoad AddPlacePage');
   }
 
 }
